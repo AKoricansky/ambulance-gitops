@@ -5,6 +5,9 @@ metadata:
 spec:
   microFrontend: ak-ambulance-ufe
   element: ak-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /ak-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
