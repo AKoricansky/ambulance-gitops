@@ -4,10 +4,14 @@ metadata:
   name: ak-ambulance-ufe-content
 spec:
   microFrontend: ak-ambulance-ufe
-  element: ak-ambulance-wl-app
+  element: ak-ambulance-wl-app  
   attributes:
     - name: base-path
       value: /ak-ambulance-wl/
+    - name: api-base
+      value: http://localhost:5000/api
+    - name: ambulance-id
+      value: bobulova
   displayRules:
     - allOf:
       - context-name: main-content
